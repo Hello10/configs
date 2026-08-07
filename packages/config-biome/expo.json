@@ -1,0 +1,10 @@
+{
+	"extends": ["@hello10/config-biome/base"],
+	"linter": {
+		"rules": {
+			"security": {
+				"noDangerouslySetInnerHtml": "off"
+			}
+		}
+	}
+}

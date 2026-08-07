@@ -1,0 +1,24 @@
+{
+	"name": "@hello10/config-typescript",
+	"description": "Shared TypeScript configs",
+	"version": "1.0.0",
+	"private": false,
+	"author": "hello10",
+	"license": "MIT",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hello10/configs.git",
+		"directory": "packages/config-typescript"
+	},
+	"files": ["*.json"],
+	"publishConfig": {
+		"access": "public"
+	},
+	"exports": {
+		"./base": "./base.json",
+		"./nextjs": "./nextjs.json",
+		"./node": "./node.json",
+		"./react": "./react.json"
+	}
+}

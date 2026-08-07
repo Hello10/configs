@@ -1,0 +1,29 @@
+{
+	"name": "@hello10/config-biome",
+	"description": "Shared Biome configs",
+	"version": "1.0.0",
+	"private": false,
+	"author": "hello10",
+	"license": "MIT",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hello10/configs.git",
+		"directory": "packages/config-biome"
+	},
+	"files": ["*.json"],
+	"publishConfig": {
+		"access": "public"
+	},
+	"exports": {
+		".": "./base.json",
+		"./base": "./base.json",
+		"./expo": "./expo.json",
+		"./nextjs": "./nextjs.json",
+		"./node": "./node.json",
+		"./react": "./react.json"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.12"
+	}
+}

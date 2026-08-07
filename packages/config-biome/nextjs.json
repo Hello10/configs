@@ -1,0 +1,3 @@
+{
+	"extends": ["@hello10/config-biome/react"]
+}

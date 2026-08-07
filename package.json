@@ -1,0 +1,11 @@
+{
+	"name": "hello10-configs",
+	"description": "Shared tooling configs for hello10 projects",
+	"version": "1.0.0",
+	"private": true,
+	"license": "MIT",
+	"workspaces": ["packages/*"],
+	"scripts": {
+		"publish:all": "npm publish --workspaces"
+	}
+}
