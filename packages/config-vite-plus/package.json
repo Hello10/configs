@@ -1,0 +1,31 @@
+{
+	"name": "@hello10/config-vite-plus",
+	"description": "Shared Vite+ lint, format, and staged config",
+	"version": "1.0.0",
+	"private": false,
+	"author": "hello10",
+	"license": "MIT",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hello10/configs.git",
+		"directory": "packages/config-vite-plus"
+	},
+	"files": ["*.js", "*.d.ts"],
+	"publishConfig": {
+		"access": "public"
+	},
+	"exports": {
+		".": {
+			"types": "./base.d.ts",
+			"import": "./base.js"
+		},
+		"./base": {
+			"types": "./base.d.ts",
+			"import": "./base.js"
+		}
+	},
+	"peerDependencies": {
+		"vite-plus": ">=1.4.0"
+	}
+}
